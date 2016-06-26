@@ -1,0 +1,7 @@
+{
+  "SlackUrl":         "https://hooks.slack.com/......",
+  "GreetingMessage":  "Our company wishes a happy birthday!",
+  "ChannelName":      "",
+  "BotName":          "",
+  "BotEmojiCode":     ""
+}
