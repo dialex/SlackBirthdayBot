@@ -1,6 +1,6 @@
-# B-DAY-BOP :tada: Birthday Slack Bot
+# B-DAY-BOP: Birthday Slack Bot
 
-The purpose of this bot is to post on your team's Slack channel on a colleague's birthday.
+The purpose of this bot is to post on your team's Slack channel on a colleague's birthday 🎂
 
 Every time you run the command `rake congratulate` the code will read some files, check who was born at that date, and send a push notification to a Slack channel. You need to create those configuration files, deploy this code to a server, and run that command based on a daily schedule. For that, I used Heroku and its Scheduler add-on.
 
