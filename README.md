@@ -1,4 +1,4 @@
-# B-DAY-BOP: Birthday Slack Bot
+# B-DAY-BOT: Birthday Slack Bot
 
 ![BotAvatar](https://i1.wp.com/www.diogonunes.com/blog/wp-content/uploads/2016/06/work-birthday-slack-bot.png?w=600)
 
