@@ -1,6 +1,6 @@
 # B-DAY-BOP: Birthday Slack Bot
 
-![BotAvatar](https://s32.postimg.org/e7utxo8hx/work_birthday_slack_bot.png)
+![BotAvatar](https://i1.wp.com/www.diogonunes.com/blog/wp-content/uploads/2016/06/work-birthday-slack-bot.png?w=600)
 
 The purpose of this bot is to post on your team's Slack channel on a colleague's birthday 🎂
 
