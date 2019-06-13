@@ -18,7 +18,7 @@ Every time you run the command `rake congratulate` the code will read some files
 
 1. Create/Open a file named `birthdays.txt`.
 2. Write on each line using the following format: `FirstName LastName YYYY MM DD`
-3. Make sure the file is located in the same folder as `congratulate.rb`.
+3. Make sure the file is located in the config folder of the SlackBirthdayBot folder.
 
 This file will tell the bot who and when should be congratulated.
 
