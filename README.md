@@ -14,7 +14,7 @@ Every time you run the command `rake congratulate` the code will read some files
 
 ## Set
 
-#### Configure your birthdays
+### Configure your birthdays
 
 1. Create/Open a file named `birthdays.txt`.
 2. Write on each line using the following format: `FirstName LastName YYYY MM DD`
@@ -22,7 +22,7 @@ Every time you run the command `rake congratulate` the code will read some files
 
 This file will tell the bot who and when should be congratulated.
 
-#### Configure your bot
+### Configure your bot
 
 1. Create/Open a file named `configurations.json`.
 2. Fill in the values as you like. `ChannelName`, `BotName`, `BotEmojiCode` are all optional. They will override Slack's integration configuration, otherwise leave them empty.
@@ -32,21 +32,21 @@ This file will tell the bot how it should behave.
 
 ## Go
 
-#### Deploy (to Heroku)
+### Deploy (to Heroku)
 
 - Do the initial setup at Heroku.
 - Upload your code using `git push heroku master`.
 
-#### Schedule (on Heroku Scheduler)
+### Schedule (on Heroku Scheduler)
 
 - Run `heroku addons:create scheduler:standard` to add the Scheduler add-on to your deploy.
 - Run `heroku addons:open scheduler` to configure.
 - Click **Add a new job** and type `rake congratulate` as the command.
 - Set frequency to **Daily** and choose the best **Time** for your company.
 
---------------------
+---
 
-#### Acknowledgments
+## Acknowledgments
 
 This code was [originally](https://github.com/jeKnowledge/birthday-bot) created by [Tiago Botelho](https://github.com/tiagonbotelho), while he was an intern at [jeKnowledge](http://jeknowledge.pt/).
 
