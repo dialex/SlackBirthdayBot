@@ -8,6 +8,16 @@ Every time you run the command `rake congratulate` the code will read some files
 
 ## Ready
 
+After you get your ruby env ready...
+
+```sh
+brew install ruby-build
+brew install rbenv
+rbenv init
+rbenv install
+gem install bundler
+```
+
 1. Run `bundle install` on you local machine to install dependencies and generate `Gemfile.lock`.
 2. Get your [Incoming Webhook](https://api.slack.com/incoming-webhooks) URL from Slack.
 3. While your at it, give your Slack Bot a name and an icon. That's easier to manage than a configuration file.
@@ -50,4 +60,4 @@ This file will tell the bot how it should behave.
 
 This code was [originally](https://github.com/jeKnowledge/birthday-bot) created by [Tiago Botelho](https://github.com/tiagonbotelho), while he was an intern at [jeKnowledge](http://jeknowledge.pt/).
 
-It was later revised by [Diogo Nunes](http://www.diogonunes.com/)  for [EqualExperts](https://www.equalexperts.com/). It is now released under the **MIT license**.
+It was later revised by [Diogo Nunes](http://www.diogonunes.com/) for [EqualExperts](https://www.equalexperts.com/). It is now released under the **MIT license**.

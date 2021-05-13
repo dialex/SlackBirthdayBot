@@ -18,6 +18,6 @@ greeting = configs.greeting_msg
 name = configs.bot_name
 emoji = configs.bot_emoji
 
-puts '🤖 Bot is activating...'
+puts '🤖 Bot is running...'
 bot = SlackBot.new(url, channel, greeting, name, emoji)
 bot.launch!
